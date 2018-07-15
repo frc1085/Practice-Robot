@@ -12,10 +12,10 @@ public class Robot extends IterativeRobot {
 
   public void robotInit () {}
 
-  public void autonomousInit () { Scheduler.getInstance().removeAll() }
-  public void teleopInit () { Scheduler.getInstance().removeAll() }
+  public void autonomousInit () { Scheduler.getInstance().removeAll(); }
+  public void teleopInit () { Scheduler.getInstance().removeAll(); }
 
-  public void autonomousPeriodic () { Scheduler.getInstance().run() }
-  public void teleopPeriodic () { Scheduler.getInstance().run() }
+  public void autonomousPeriodic () { Scheduler.getInstance().run(); }
+  public void teleopPeriodic () { Scheduler.getInstance().run(); }
 
 }
