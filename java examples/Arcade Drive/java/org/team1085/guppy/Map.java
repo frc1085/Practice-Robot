@@ -12,4 +12,6 @@ public class Map {
 
   static int FIRST_DRIVER_PORT = 0;
 
+  static double INPUT_SCALE = 1;
+
 }
