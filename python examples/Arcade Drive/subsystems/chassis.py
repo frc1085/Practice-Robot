@@ -2,7 +2,7 @@ from wpilib.command import Subsystem
 from ctre import WPI_TalonSRX
 from commands.arcadeDrive import ArcadeDrive
 
-class Chassis (wpilib.command.Subsystem):
+class Chassis (Subsystem):
 
   def __init__ (self, robot):
     self.robot = robot
