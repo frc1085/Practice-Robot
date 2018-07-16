@@ -10,9 +10,9 @@ public class Dashboard : Subsystem () {
   public val firstDriver = Joystick(Map.FIRST_DRIVER_PORT)
 
   init {
-    JoystickButton(firstDriver, 3).whenPressed(OpenGriper())
-    JoystickButton(firstDriver, 4).whenPressed(CloseGriper())
-    JoystickButton(firstDriver, 1).whenPressed(ToggleGripper())
+    JoystickButton(firstDriver, Map.OPEN_BTN).whenPressed(OpenGriper())
+    JoystickButton(firstDriver, Map.CLOSE_BTN).whenPressed(CloseGriper())
+    JoystickButton(firstDriver, Map.TRIGGER).whenPressed(ToggleGripper())
   }
 
 }
