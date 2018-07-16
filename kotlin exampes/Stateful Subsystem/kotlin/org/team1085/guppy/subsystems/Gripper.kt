@@ -1,6 +1,7 @@
 package org.team1085.guppy.subsystems
 
 import edu.wpi.first.wpilibj.command.Subsystem
+import edu.wpi.first.wpilibj.Servo
 import org.team1085.bluegill.Map
 
 public class Gripper : Subsystem () {
